@@ -27,8 +27,6 @@ stages {
             steps {
                 sh 'mvn package'
             }
-        }
-
-        
+        }    
     }
 }
