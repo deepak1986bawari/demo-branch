@@ -1,5 +1,5 @@
 pipeline {
-agent { node { label 'master' } }
+agent { node { label 'slavenode-01' } }
 tools {
         maven 'maven-3.8.6' 
         jdk 'Jdk-9.0.4'
